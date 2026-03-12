@@ -21,9 +21,9 @@ CREATE TABLE bronze_crm_cust_info(
     cst_create_date DATE
 );
 
-DROP TABLE IF EXISTS bronze_crm_cust_info;
+DROP TABLE IF EXISTS bronze_crm_prod_info;
 
-CREATE TABLE bronze_crm_cust_info(
+CREATE TABLE bronze_crm_prod_info(
     prd_id INT,
     prd_key VARCHAR(50),
     prd_nm VARCHAR(50),
@@ -33,9 +33,9 @@ CREATE TABLE bronze_crm_cust_info(
     prd_end_dt DATE
 );
 
-DROP TABLE IF EXISTS bronze_crm_cust_info;
+DROP TABLE IF EXISTS bronze_crm_sales_details;
 
-CREATE TABLE bronze_crm_cust_info(
+CREATE TABLE bronze_crm_sales_details(
     sls_ord_num VARCHAR(50),
     sls_prd_key VARCHAR(50),
     sls_cust_id VARCHAR(50),
