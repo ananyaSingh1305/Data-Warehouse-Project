@@ -33,6 +33,8 @@ Designed as a portfolio project, it highlights industry best practices in:
 
 This solution follows the **Medallion Architecture** pattern with three structured layers:
 
+
+
 ## 🥉 Bronze Layer — Raw Data
 
 - Stores raw data directly from source systems.
@@ -92,6 +94,8 @@ These insights support stakeholders with key performance indicators and strategi
 
 - MySQL
 - CSV Data Sources
+- ETL Pipeline Design
+- Data Cleaning & Transformation
 - Star Schema Modeling
 - Medallion Architecture
 
