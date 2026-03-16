@@ -1,11 +1,9 @@
 # Data Warehouse Project
 
-Building and deploying a MySQL data warehouse with ETL pipelines, data modeling, and analytics capabilities.
-
 # 🚀 Project Requirements
 
 ### 🎯 Objective
-Build a modern MySQL-based data warehouse that consolidates sales data to enable reporting and data-driven decision-making.
+Build a modern MySQL-based data warehouse that consolidates sales data to enable reporting and data-driven decision-making with ETL pipelines, data modeling, and analytics capabilities..
 
 ### 📌 Specifications
 
@@ -33,7 +31,7 @@ Designed as a portfolio project, it highlights industry best practices in:
 
 This solution follows the **Medallion Architecture** pattern with three structured layers:
 
-
+![Data Architecture](https://github.com/ananyaSingh1305/Data-Warehouse-Project/blob/50fed0d19dcac4a2f8f4e74c24fbcb2e948d674d/documents/Data%20Architecture%20Medallion.png)
 
 ## 🥉 Bronze Layer — Raw Data
 
